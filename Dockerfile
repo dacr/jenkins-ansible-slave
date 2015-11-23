@@ -1,4 +1,4 @@
-FROM dacr/jenkins-slave
+FROM dacr/jenkins-docker-slave
 MAINTAINER crosson.david@gmail.com
 
 ADD http://releases.ansible.com/ansible/ansible-2.0.0-0.6.rc1.tar.gz /tmp/ansible.tar.gz
